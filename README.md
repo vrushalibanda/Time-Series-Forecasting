@@ -1,0 +1,6 @@
+# Time-Series-Forecasting
+For the complete Time Series Analysis and Forecasting, all the steps were followed from data selection, exploring and visualizing the series and evaluating predictability, pre-processing of data, partitioning of time series, followed by generating numerous forecasting model, comparing the results of these models and then implementing the best model(s) for forecasting of data for 8 quarters in future, and deriving conclusions.
+
+The methods used for forecasting / model generation were: (a) Seasonal Naive (as the base for comparison of accuracy results), (b) Moving Average - Trailing (with 4 different window widths), (c) Advanced Exponential Smoothing using Holt-Winter’s method, (d) Regression with Linear Trend, (e) Regression with Quadratic Trend, (f) Regression with Seasonality, (g) Regression with Linear Trend and Seasonality, (h) Regression with Quadratic Trend and Seasonality and (h) Auto ARIMA. The selection of these models was made based on the merit / demerit of each.
+
+The forecasting results were quite promising with MAPE (Mean Absolute Percentage Error) being 2.789 and 2.809 and RMSE (Root Mean Square Error) as 115.073 and 122.954 for Regression with Linear Trend and Seasonality and Auto-ARIMA: (0,0,0)(1,1,0)[4] respectively. The data had seasonality in it with linear trend.
